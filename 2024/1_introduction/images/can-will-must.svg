@@ -1,0 +1,20 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Red circle for "WILL" -->
+  <circle cx="200" cy="100" r="80" fill="red" opacity="0.4" />
+  <text x="200" y="105" font-size="20" fill="black" text-anchor="middle" dominant-baseline="middle">
+    WILL
+  </text>
+
+  <!-- Blue circle for "CAN" -->
+  <circle cx="140" cy="200" r="80" fill="blue" opacity="0.3" />
+  <text x="140" y="205" font-size="20" fill="black" text-anchor="middle" dominant-baseline="middle">
+    CAN
+  </text>
+
+  <!-- Yellow circle for "MUST" -->
+  <circle cx="260" cy="200" r="80" fill="yellow" opacity="0.4" />
+  <text x="260" y="205" font-size="20" fill="black" text-anchor="middle" dominant-baseline="middle">
+    MUST
+  </text>
+</svg>

@@ -318,26 +318,7 @@ by OpenAI DALL-E
 
 上記 3 つのテーマは、キャリアを考える上で、よく言われる 3 要素 WILL・CAN・MUST に対応します。MUST だとクリエイティブ感が少なくオペレーション感が出てしまうので、EXPECTED に置き換えても良いかと思います。次回以降では、WILL の解像度を上げ、MUST (EXPECTED) のアンテナを増やすと共に、体験を通して CAN を増やしていきます。
 
-<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- Red circle for "WILL" -->
-  <circle cx="200" cy="100" r="80" fill="red" opacity="0.4" />
-  <text x="200" y="105" font-size="20" fill="black" text-anchor="middle" dominant-baseline="middle">
-    WILL
-  </text>
-
-  <!-- Blue circle for "CAN" -->
-  <circle cx="140" cy="200" r="80" fill="blue" opacity="0.3" />
-  <text x="140" y="205" font-size="20" fill="black" text-anchor="middle" dominant-baseline="middle">
-    CAN
-  </text>
-
-  <!-- Yellow circle for "MUST" -->
-  <circle cx="260" cy="200" r="80" fill="yellow" opacity="0.4" />
-  <text x="260" y="205" font-size="20" fill="black" text-anchor="middle" dominant-baseline="middle">
-    MUST
-  </text>
-</svg>
+![](./images/can-will-must.svg)
 
 ### 5.2. 👩‍💻 プロセスとテクノロジー (5 分)
 
