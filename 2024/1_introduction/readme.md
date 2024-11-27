@@ -200,6 +200,8 @@ by OpenAI DALL-E
 
 [つくるだけで完結しない、社会に「実装」させる美大教育 京都芸術大学の現在 vol.2 | TD](https://www.td-media.net/interview/kyoto-art-daisaku-yoshida/)
 
+[solution-design-with-technology/2024/1_solution_basic/5. ソリューションデザインと多様性](https://github.com/Creative-Cucumbers/solution-design-with-technology/tree/main/2024/1_solution_basic#52-%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%BD%B9%E5%89%B2)
+
 ### 2.2. 🤷‍♂️ Why (20 分)
 
 > [!IMPORTANT]
