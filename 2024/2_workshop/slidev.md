@@ -16,15 +16,27 @@ font: "Noto Sans JP"
 
 ---
 
-## ❓ マシュマロチャレンジ？
+## ❓ マシュマロチャレンジ
 
-👨‍💼 **顧客**: 「大好きなマシュマロと大好きなパスタを使って高い塔を建てたい！」
+<div style="display: flex; align-items: center; gap: 20px;">
+  <!-- 左側の画像 -->
+  <div style="flex: 1; text-align: center;">
+    <img src="https://raw.githubusercontent.com/Creative-Cucumbers/creative-hack-plus/main/2024/2_workshop/images/2024-12-03-09-37-11.png" alt="Challenge" style="width: 90%;">
+  </div>
 
-🏗 **顧客**: 「塔は高ければ高いほど良い！」
+  <!-- 右側のテキスト -->
+  <div style="flex: 2;">
 
-✨ **顧客**: 「マシュマロの位置は高ければ高いほど良い！」
+    👨‍💼 顧客: 大好きなマシュマロとパスタを使って塔を建てたい！
+    🏗 顧客: 塔は高ければ高いほど良い！
+    ✨ 顧客: マシュマロの位置は高ければ高いほど良い！
 
-➡️ **どうする？**
+  </div>
+</div>
+
+<div class="absolute bottom-22 w-full text-4xl font-bold">
+➡️ どうする？
+</div>
 
 ---
 
@@ -38,6 +50,10 @@ font: "Noto Sans JP"
 - 🎯 チャレンジ#1 20min
 - 🏆 計測＆結果発表＆感想#1 10min
 - ☕ 休憩 5min
+
+---
+
+## 🔄 流れ（続き）
 
 ### 3 限後半
 
@@ -87,11 +103,11 @@ font: "Noto Sans JP"
 
 ## 🎯 マシュマロチャレンジ #1 スタート！
 
-- 🧑‍🤝‍🧑 **1 チーム約 4 人で、作戦タイムも含めて 18 分間で行います。**
-- 🏗 **自立可能で出来るだけ高いタワーを立て、タワーの上にマシュマロを置きます。（パスタに刺しても OK）**
-- 🚫 **テープで足場を固定してはいけません。**
-- ✂️ **パスタやテープ、ひもは切ったり、貼ったりするのは OK。マシュマロは切ってはいけません。**
-- 🕐 **計測の最中もタワーが立っていなければ、記録とはなりません。**
+1. 🧑‍🤝‍🧑 **1 チーム約 4 人で、作戦タイムも含めて 18 分間で行います。**
+2. 🏗 **自立可能で出来るだけ高いタワーを立て、タワーの上にマシュマロを置きます。（パスタに刺しても OK）**
+3. 🚫 **テープで足場を固定してはいけません。**
+4. ✂️ **パスタやテープ、ひもは切ったり、貼ったりするのは OK。マシュマロは切ってはいけません。**
+5. 🕐 **計測の最中もタワーが立っていなければ、記録とはなりません。**
 
 ---
 
@@ -105,17 +121,17 @@ font: "Noto Sans JP"
 
 ## 🔍 振り返り #1
 
-- 🌟 **良かった点、悪かった点、気付きを共有しよう**
+🌟 **良かった点、悪かった点、気付きを共有しよう**
 
 ---
 
 ## 🎯 マシュマロチャレンジ #2 スタート！
 
-- 🧑‍🤝‍🧑 **1 チーム約 4 人で、作戦タイムも含めて 18 分間で行います。**
-- 🏗 **自立可能で出来るだけ高いタワーを立て、タワーの上にマシュマロを置きます。（パスタに刺しても OK）**
-- 🚫 **テープで足場を固定してはいけません。**
-- ✂️ **パスタやテープ、ひもは切ったり、貼ったりするのは OK。マシュマロは切ってはいけません。**
-- 🕐 **計測の最中もタワーが立っていなければ、記録とはなりません。**
+1. 🧑‍🤝‍🧑 **1 チーム約 4 人で、作戦タイムも含めて 18 分間で行います。**
+2. 🏗 **自立可能で出来るだけ高いタワーを立て、タワーの上にマシュマロを置きます。（パスタに刺しても OK）**
+3. 🚫 **テープで足場を固定してはいけません。**
+4. ✂️ **パスタやテープ、ひもは切ったり、貼ったりするのは OK。マシュマロは切ってはいけません。**
+5. 🕐 **計測の最中もタワーが立っていなければ、記録とはなりません。**
 
 ---
 
@@ -129,11 +145,11 @@ font: "Noto Sans JP"
 
 ## 💡 マシュマロチャレンジとアジャイル開発
 
-### 🚀 マシュマロチャレンジはソリューション開発！
+- 🚀 マシュマロチャレンジはソリューション開発！
+- 💻 マシュマロチャレンジはソフトウェア開発！！
+- 🌀 マシュマロチャレンジはアジャイル開発！！！
 
-### 💻 マシュマロチャレンジはソフトウェア開発！！
-
-### 🌀 マシュマロチャレンジはアジャイル開発！！！
+<img src="https://raw.githubusercontent.com/Creative-Cucumbers/creative-hack-plus/main/2024/2_workshop/images/2024-12-03-10-02-31.png" alt="" style="width: 30%; display: block; margin: 0 auto;">
 
 ---
 
@@ -161,10 +177,10 @@ font: "Noto Sans JP"
 
 ## 📜 アジャイルソフトウェア開発宣言
 
-- 🛠 **プロセスやツールよりも個人と対話を**
-- 📄 **包括的なドキュメントよりも動くソフトウェアを**
-- 🤝 **契約交渉よりも顧客との協調を**
-- 📅 **計画に従うことよりも変化への対応を**
+- 🛠 ➡️ 💬 **プロセスやツールよりも個人と対話を**
+- 📄 ➡️ 💻 **包括的なドキュメントよりも動くソフトウェアを**
+- 🏛 ➡️ 🤝 **契約交渉よりも顧客との協調を**
+- 📅 ➡️ 🌊 **計画に従うことよりも変化への対応を**
 
 [📎 アジャイルソフトウェア開発宣言](https://agilemanifesto.org/iso/ja/manifesto.html)
 
@@ -200,9 +216,9 @@ font: "Noto Sans JP"
 
 ## 🌟 MVP: Minimum Viable Product
 
-### 🛠 プロダクト開発における最小限の機能を持つ製品
+🛠 プロダクト開発における最小限の機能を持つ製品
 
-![](https://raw.githubusercontent.com/Creative-Cucumbers/creative-hack-plus/main/2024/2_workshop/images/2024-12-03-02-29-53.png)
+<img src="https://raw.githubusercontent.com/Creative-Cucumbers/creative-hack-plus/main/2024/2_workshop/images/2024-12-03-02-29-53.png" alt="" style="width: 50%; display: block; margin: 0 auto;">
 
 ---
 
@@ -210,6 +226,13 @@ font: "Noto Sans JP"
 
 - 🔄 **市場やユーザーからの早期フィードバック**
 - 💡 **無駄を最小限に抑えつつ効果的に開発**
+- 📉 **リスクの軽減**
+
+<div style="position: relative; height: 200px;">
+  <img src="https://raw.githubusercontent.com/Creative-Cucumbers/creative-hack-plus/main/2024/2_workshop/images/2024-12-03-10-10-52.png" alt="" style="width: 40%; position: absolute; bottom: 0; right: 0;">
+</div>
+
+<!-- <img src="https://raw.githubusercontent.com/Creative-Cucumbers/creative-hack-plus/main/2024/2_workshop/images/2024-12-03-10-10-52.png" alt="" style="width: 30%; display: block; margin: 0 auto;"> -->
 
 ---
 
@@ -219,6 +242,11 @@ font: "Noto Sans JP"
 - 🚀 **早期リリース**
 - 📋 **フィードバック重視**
 
+<div style="position: relative; height: 200px;">
+  <img src="https://raw.githubusercontent.com/Creative-Cucumbers/creative-hack-plus/main/2024/2_workshop/images/2024-12-03-10-10-44.png" alt="" style="width: 40%; position: absolute; bottom: 0; right: 0;">
+</div>
+<!-- <img src="https://raw.githubusercontent.com/Creative-Cucumbers/creative-hack-plus/main/2024/2_workshop/images/2024-12-03-10-10-44.png" alt="" style="width: 30%; display: block; margin-left: auto;"> -->
+
 ---
 
 ### 📈 MVP のメリット
@@ -227,27 +255,35 @@ font: "Noto Sans JP"
 - ⚠️ **リスク軽減**
 - 🕐 **学習サイクル**
 
+<div style="position: relative; height: 200px;">
+  <img src="https://raw.githubusercontent.com/Creative-Cucumbers/creative-hack-plus/main/2024/2_workshop/images/2024-12-03-10-10-33.png" alt="" style="width: 40%; position: absolute; bottom: 0; right: 0;">
+</div>
+
+<!-- <img src="https://raw.githubusercontent.com/Creative-Cucumbers/creative-hack-plus/main/2024/2_workshop/images/2024-12-03-10-10-33.png" alt="" style="width: 30%; display: block; margin-left: auto;"> -->
+
 ---
 
-### ⚠️ MVP のデメリット
+### ⚠️ MVP の注意点
 
-- 💭 **最小限の機能ではユーザーの期待を満たせない場合もある**
+💭 **最小限の機能ではユーザーの期待を満たせない場合もある**
+
+<img src="https://raw.githubusercontent.com/Creative-Cucumbers/creative-hack-plus/main/2024/2_workshop/images/2024-12-03-10-10-23.png" alt="" style="width: 40%; display: block; margin: 0 auto;">
 
 ---
 
 ## 🔍 振り返り #2
 
-- 🌟 **良かった点、悪かった点、気付きを共有しよう**
+🌟 **良かった点、悪かった点、気付きを共有しよう**
 
 ---
 
 ## 🎯 マシュマロチャレンジ #3 スタート！
 
-- 🧑‍🤝‍🧑 **1 チーム約 4 人で、作戦タイムも含めて 18 分間で行います。**
-- 🏗 **自立可能で出来るだけ高いタワーを立て、タワーの上にマシュマロを置きます。（パスタに刺しても OK）**
-- 🚫 **テープで足場を固定してはいけません。**
-- ✂️ **パスタやテープ、ひもは切ったり、貼ったりするのは OK。マシュマロは切ってはいけません。**
-- 🕐 **計測の最中もタワーが立っていなければ、記録とはなりません。**
+1. 🧑‍🤝‍🧑 **1 チーム約 4 人で、作戦タイムも含めて 18 分間で行います。**
+2. 🏗 **自立可能で出来るだけ高いタワーを立て、タワーの上にマシュマロを置きます。（パスタに刺しても OK）**
+3. 🚫 **テープで足場を固定してはいけません。**
+4. ✂️ **パスタやテープ、ひもは切ったり、貼ったりするのは OK。マシュマロは切ってはいけません。**
+5. 🕐 **計測の最中もタワーが立っていなければ、記録とはなりません。**
 
 ---
 
@@ -276,7 +312,7 @@ font: "Noto Sans JP"
 
 ---
 
-## ✨ 学びと好きな言葉
+## ✨ 学び
 
 - 🌍 **"If you want to go fast, go alone. If you want to go far, go together."**
 
