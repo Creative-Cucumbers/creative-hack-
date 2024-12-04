@@ -26,3 +26,9 @@ by OpenAI DALL-E
 | **Creative**           | Creative                         | 新しい視点や発想で問題を解決する創造性。                                             |
 | **Hack**               | Technology                       | 技術を活かして迅速かつ柔軟に課題に取り組む姿勢。                                     |
 | **Plus**               | Business                         | 個人の課題解決を越えた持続可能な価値創造、ビジネスモデルの構築、社会へのインパクト。 |
+
+### 1.3. マシュマロチャレンジ
+
+資料へのリンク
+
+[🎯 マシュマロチャレンジ資料](https://creative-cucumbers.github.io/marshmallow-challenge/1)
