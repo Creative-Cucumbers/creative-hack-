@@ -67,7 +67,16 @@ by OpenAI DALL-E
   - iOS ショートカット
   - Zapier
   - Make
+- ノーコード
+  - Kintone
+  - Power Apps
+  - Salesforce
+  - Bubble
+- IoT
   - MESH
+  - M5Stack
+  - Arduino
+  - ラズパイ
 - その他：プラグイン・スクリプト（紹介のみ）
   - Bookmarklet
   - GAS: Google Apps Script
