@@ -581,6 +581,12 @@ flowchart TB
 
 ![](../../images/2024-12-10-13-55-17.png)
 
+#### 参考
+
+RAG (Retrieval-Augmented Generation：検索拡張生成)
+
+[co-creation-with-genai/2024/3_prompt_engineering at main · Creative-Cucumbers/co-creation-with-genai](https://github.com/Creative-Cucumbers/co-creation-with-genai/tree/main/2024/3_prompt_engineering#rag-retrieval-augmented-generation%E6%A4%9C%E7%B4%A2%E6%8B%A1%E5%BC%B5%E7%94%9F%E6%88%90)
+
 ### 4.4. 🌐 機能 4「Web サイト理解促進アプリ」
 
 エージェントを使ってアプリを作成します。
