@@ -347,6 +347,8 @@ https://pokeapi.co/api/v2/pokemon-species/pikachu
 
 以下のスキーマ部分に OpenAPI 仕様を記載する。
 ![](../../images/2024-12-17-09-58-17.png)
+![](../../images/2024-12-17-14-41-59.png)
+![](../../images/2024-12-17-14-42-07.png)
 
 ### エージェントでのカスタムツール呼び出し
 
@@ -355,6 +357,10 @@ https://pokeapi.co/api/v2/pokemon-species/pikachu
 - 取得したデータはエージェント内で生成 AI と連携させ、さらに加工や表示に活用します。
 
 ![](../../images/2024-12-17-10-00-48.png)
+
+![](../../images/2024-12-17-14-45-38.png)
+
+![](../../images/2024-12-17-14-46-12.png)
 
 これにより、Dify を活用した外部 API 連携の一連の流れを体験し、アプリ開発における実践的なスキルを身につけることができます。
 
@@ -393,6 +399,44 @@ https://pokeapi.co/api/v2/pokemon-species/pikachu
 5. **LLM、カスタムツール、コードブロックの統合**
    - LLM、カスタムツール、コードブロックを組み合わせてワークフローを完成させます。
    - 各要素のデバッグを行い、動作が期待通りか確認します。
+
+### ワークフローの構築
+
+天気のワークフロー
+![](../../images/2024-12-17-14-42-34.png)
+条件分岐
+![](../../images/2024-12-17-14-42-53.png)
+コード実行
+![](../../images/2024-12-17-14-47-14.png)
+
+参考
+
+```python
+import json
+def main(data: str) -> dict:
+    data_dict = json.loads(data)
+    result = None  # 初期値をNoneに設定
+    for entry in data_dict.get('names', []):  # 'names'が存在しない場合の対策
+        if entry['language']['name'] == 'ja':
+            result = entry['name']
+            break  # 条件に一致したらループを終了
+    return {"result": result}
+```
+
+```python
+import json
+def main(data: dict) -> dict:
+    data_dict = json.loads(data)
+
+    # result = {}
+    result = None
+    for entry in data_dict['flavor_text_entries']:
+        if entry['language']['name'] == 'ja':
+            result = entry['flavor_text']
+            break  # 条件に一致したらループを終了
+            # result[entry['version']['name']] = entry['flavor_text']
+    return {"result": result}
+```
 
 ### ワークフローの成果
 
@@ -453,22 +497,59 @@ https://pokeapi.co/api/v2/pokemon-species/pikachu
 
    - Dify が提供する API ドキュメントを参照し、エンドポイントやリクエスト形式、レスポンス仕様を確認します。
 
+![](../../images/2024-12-17-14-44-00.png)
+
 ### Bolt.new から API 呼び出し
 
-1. **API の呼び出し**
+#### 手順
 
-   - Bolt.new を利用して、Dify の API を呼び出します。
-   - API キーはセキュリティ上、ユーザー入力を介して設定しまことにします。
-   - API キーをフロントエンド側のコードに埋め込むと世界に流出してしまいます。
-   - API key は、バックエンド側で保持し管理することが多いです。
+- Bolt.new を利用して、Dify の API を呼び出します。
+- API キーはセキュリティ上、ユーザー入力を介して設定しまことにします。
+- API キーをフロントエンド側のコードに埋め込むと世界に流出してしまいます。
+- API key は、バックエンド側で保持し管理することが多いです。
 
-2. **認証の仕組みの実装**
+#### プロンプト例
 
-   - 実際のプロダクション環境では、API キーの管理や認証の仕組み（トークンベース認証など）を実装する必要があります。
+```
+下記情報をもとにreact, typescriptでPokeAPIを用いた検索サービスを作ってください。
 
-3. **セキュリティの非機能要件**
-   - セキュリティは非機能要件の一部であり、適切な管理が求められます。
-   - API 呼び出し時の暗号化や認証手順、データ保護に留意してください。
+# 仕様
+ユーザーからの入力をもとに以下のAPIを呼び出しキャラクターの説明と画像URLを取得し、表示する
+モダンでシンプルでフラットデザイン
+API Keyはユーザーが画面に入力する
+
+# API仕様 ## request
+curl -X POST 'https: //api.dify.ai/v1/workflows/run' \
+--header 'Authorization: Bearer {api_key
+}' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"inputs": {"query": "オレンジ色で、火を吹き、空を飛ぶ"},
+"response_mode": "blocking",
+"user": "abc-123"
+}'
+
+## response
+{
+"workflow_run_id": "djflajgkldjgd",
+"task_id": "9da23599-e713-473b-982c-4328d4f5c78a",
+"data": {
+"id": "fdlsjfjejkghjda",
+"workflow_id": "fldjaslkfjlsda",
+"status": "succeeded",
+"outputs": {
+"text": "| 名前       | リザードン |\n| ----------- | -------- |\n| 特徴       |  炎タイプのポケモン。非常に高い温度の炎を吐き、岩石を溶かすほどの威力を持つ。翼で空を飛び回り、強い相手を求めて戦う。戦闘経験を積むほど炎の温度が上昇するともいわれている。  メガシンカによってメガリザードンXとメガリザードンYになる。  |\n\n",
+"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png\n"
+},
+"error": null,
+"elapsed_time": 0.875,
+"total_tokens": 3562,
+"total_steps": 8,
+"created_at": 1705407629,
+"finished_at": 1727807631
+}
+}
+```
 
 以上により、Dify のワークフローを API として活用し、Bolt.new と統合できました。同じように API を用いることで Bolt.new 以外からもアクセス可能です。
 
