@@ -258,6 +258,8 @@ by OpenAI DALL-E
 
 ### API とは？
 
+![](../../images/2024-12-17-23-13-16.png)
+
 - **Application Programming Interface**
   ソフトウェア同士がやり取りをするための「窓口」や「橋渡し」の役割を果たす仕組みです。開発者が特定の機能を利用しやすくなるように、仕様書として提供されます。
 
@@ -269,6 +271,41 @@ by OpenAI DALL-E
 
 - **Web API**
   インターネットを介して操作やデータ取得が可能な API のことです。例えば、天気情報や映画データベースの情報を取得する API があります。
+
+API アクセスのダイアグラム
+
+```mermaid
+flowchart LR
+    User -->|3 トークン付きリクエスト| API[API]
+    API -->|8 結果返却| User
+    API -->|6b 認証エラー| User
+    API -->|4 トークン検証| Auth
+    Auth -->|5 検証結果| API
+    API -->|6a 認証成功| Server[サーバー/バックエンド]
+    Server -->|7 データ/レスポンス| API
+    User[ユーザー/アプリケーション] -->| 1 認証リクエスト| Auth[認証サーバー]
+    Auth -->|2 アクセストークン発行| User
+```
+
+シーケンス図
+
+```mermaid
+sequenceDiagram
+    participant User as ユーザー/アプリケーション
+    participant API as API
+    participant Server as サーバー/バックエンド
+    participant Auth as 認証サーバー
+
+    User->>Auth: 1 認証リクエスト (例: ユーザーID/パスワード)
+    Auth-->>User: 2 アクセストークン発行
+    User->>API: 3 リクエスト送信 (アクセストークン付き)
+    API->>Auth: 4 トークン検証
+    Auth-->>API: 5 検証結果 (有効/無効)
+    API-->>User: 6b 認証エラー (無効の場合)
+    API->>Server: 6a リクエスト処理 (認証成功時)
+    Server-->>API: 7 レスポンスデータ
+    API-->>User: 8 レスポンスを返す (データ表示)
+```
 
 ### Web API の例
 
