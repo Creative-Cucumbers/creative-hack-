@@ -68,7 +68,7 @@ by OpenAI DALL-E
 
 ---
 
-## 2. 前回の復習
+## 2. 📚 前回の復習
 
 - Dify の登録
 - Google Gemini API の API key を取得
@@ -84,7 +84,7 @@ by OpenAI DALL-E
 
 ---
 
-## 3. 応用編：プログラミング言語を用いた AI アプリ開発
+## 3. 🛠️ 応用編：プログラミング言語を用いた AI アプリ開発
 
 このセクションでは、プログラミング言語を用いて生成 AI を呼び出し、簡易的なチャットアプリケーションを開発するプロセスを学びます。以下のステップを通じて、AI を活用したアプリ開発の基礎を実践的に理解します。
 
@@ -117,7 +117,11 @@ by OpenAI DALL-E
 6. **動作確認**
    - アプリケーションを実行して、生成 AI の応答やユーザーインターフェースの動作が期待通りかをテストします。
 
-## 4. プラットフォーム
+> [!IMPORTANT]
+> API key を CodeSandbox のコード上に入力すると、API key が流出するのでご注意ください。
+> プロダクション環境では、別途バックエンドサーバーやログインの仕組みが必要です。
+
+## 4. 🖥️ プラットフォーム
 
 このセクションでは、プログラミングを行わずに開発できるツールや、生成 AI を用いて効率的にプログラミングや開発を進められる環境を紹介します。初心者から上級者まで、目的に応じた適切なツールを選ぶことで、開発効率を大幅に向上させることが可能です。
 
@@ -137,10 +141,10 @@ by OpenAI DALL-E
 - **ノーコードツール**
   プログラミングなしでアプリを作成可能なプラットフォーム。直感的な UI やドラッグ&ドロップ機能を使って、業務アプリケーションやカスタムソリューションを簡単に構築できます。
 
-  - Kintone
+  - [kintone（キントーン）」](https://kintone.cybozu.co.jp/)
     業務効率化に特化したクラウド型データベースプラットフォーム。チームでの情報共有やタスク管理を手軽に行えるカスタマイズ可能なアプリを作成可能です。
 
-  - Power Apps
+  - [Microsoft Power Apps](https://www.microsoft.com/ja-jp/power-platform/products/power-apps)
     Microsoft が提供するローコードアプリ開発プラットフォーム。Excel 感覚で使える直感的な UI と豊富な連携オプションで、ビジネスプロセスを効率化できます。
 
   - Salesforce
@@ -152,10 +156,10 @@ by OpenAI DALL-E
 - **iPaaS（Integration Platform as a Service）**
   複数のアプリやサービスを連携させ、自動化や効率化を実現するためのツール。API やトリガーを設定するだけで、異なるサービス間でデータのやり取りが可能になります。
 
-  - Zapier
+  - [Zapier](https://zapier.com/)
     異なるアプリケーションをつなぎ、タスクを自動化するツール。例えば、Google フォームの入力内容を自動で Slack に通知するなど、ノーコードで簡単に設定できます。
 
-  - Make（旧 Integromat）
+  - [Make](https://www.make.com/en) （旧 Integromat）
     異なるアプリケーションをつなぎ、タスクを自動化するツール。例えば、Google フォームの入力内容を自動で Slack に通知するなど、ノーコードで簡単に設定できます。
 
   - iOS ショートカット
@@ -163,7 +167,7 @@ by OpenAI DALL-E
 
 - **IoT 開発ツール**
   簡単な IoT プロジェクトを実現するツール：
-  - MESH
+  - [MESH](https://meshprj.com/jp/)
     センサーやタグを使って簡単な IoT デバイスを構築。
   - toio
     子どもから大人まで楽しめるプログラミング教育ツール。
@@ -174,7 +178,7 @@ by OpenAI DALL-E
 
 - **AI アシスト開発環境**
 
-  - v0
+  - [v0](https://v0.dev/)
     生成 AI を統合した開発プラットフォーム。
   - Bolt.new
     生成 AI を統合した開発プラットフォーム。
@@ -182,7 +186,7 @@ by OpenAI DALL-E
 - **AI コードアシスタント**
   コーディングを支援する AI ツール：
 
-  - GitHub Copilot
+  - [GitHub Copilot](https://github.com/features/copilot)
     VSCode プラグインとして利用可能。
   - Cursor
     AI を活用した IDE
@@ -192,13 +196,13 @@ by OpenAI DALL-E
 - **オンライン開発環境**
   ブラウザ上で開発可能なツール：
 
-  - CodeSandbox
+  - [CodeSandbox](https://codesandbox.io/)
     フロントエンド開発向けの環境。
   - StackBlitz
     フロントエンド開発向けの環境。
   - CodePen
     フロントエンド開発向けの環境。
-  - Google Colab
+  - [Google Colaboratory](https://colab.google/)
     Python ベースのデータ分析・AI 開発に便利。
 
 - **デプロイ環境**
@@ -212,7 +216,7 @@ by OpenAI DALL-E
 
 ---
 
-## 5. 外部 API を活用した AI アプリ開発
+## 5. 🌐 外部 API を活用した AI アプリ開発
 
 このセクションでは、外部 API を活用して生成 AI（LLM）を利用するアプリに向けて API を学びます。
 
@@ -282,7 +286,7 @@ by OpenAI DALL-E
 - 著作物を扱う際は、**著作権**や**商標**に十分注意してください。
   参考: [ご利用について｜ポケットモンスターオフィシャルサイト](https://www.pokemon.co.jp/rules/)
 
-## 4. API 呼び出し
+## 6. 🔄 API 呼び出し
 
 このセクションでは、Dify を活用して外部 API を呼び出し、エージェントでの活用方法を学びます。OpenWeather API を例に、API の取得からカスタムツール登録、エージェントでの呼び出しまでの手順を解説します。
 
@@ -356,11 +360,11 @@ https://pokeapi.co/api/v2/pokemon-species/pikachu
 
 ---
 
-### 4 限前半
+## 4 限前半
 
 ---
 
-## 5. ワークフロー
+## 7. 🛠️ ワークフロー
 
 このセクションでは、Dify を活用したワークフローの構築手法を学びます。シンプルな入力出力から始め、条件分岐やツール呼び出し、コードブロックの利用を通して複雑な処理の実装を体験します。最終的に LLM、カスタムツール、コードブロックを統合して、データ処理や API 活用を行います。
 
@@ -408,7 +412,7 @@ https://pokeapi.co/api/v2/pokemon-species/pikachu
 
 ---
 
-## 6. Dify を API として呼び出す
+## 8. 🔗 Dify を API として呼び出す
 
 このセクションでは、Dify を API として利用する方法を学びます。Bolt.new を活用し、Dify のワークフローを API として呼び出し、外部アプリケーションとの連携を実現します。また、API 利用時のセキュリティや制限についても解説します。
 
@@ -468,7 +472,7 @@ https://pokeapi.co/api/v2/pokemon-species/pikachu
 
 以上により、Dify のワークフローを API として活用し、Bolt.new と統合できました。同じように API を用いることで Bolt.new 以外からもアクセス可能です。
 
-## 7. レトロスペクティブ
+## 9. 🔄 レトロスペクティブ
 
 > [!IMPORTANT]
 >
@@ -476,6 +480,6 @@ https://pokeapi.co/api/v2/pokemon-species/pikachu
 
 ---
 
-## 7. 🏁 まとめ
+## 10. 🏁 まとめ
 
 このハンズオンでは、生成 AI 活用スキルを実践的に学びました。Dify を利用した外部 API（OpenWeather API など）の呼び出しや、LLM を用いたデータ加工を体験。また、Bolt.new での UI 作成と Dify ワークフローを統合し、実際のアプリケーション構築を進行しました。API の仕組みやセキュリティの基礎知識も学び、ツールやコードを組み合わせた効率的な開発プロセスを習得しました。次回は、最後のハッカソンに取り組んでいきます。
