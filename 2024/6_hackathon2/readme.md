@@ -83,7 +83,7 @@ by OpenAI DALL-E
 
 ### 課題
 
-[creative-hack-plus/2024/4_handson2 at main · Creative-Cucumbers/creative-hack-plus](https://github.com/Creative-Cucumbers/creative-hack-plus/tree/main/2024/4_handson2)
+[creative-hack-plus/2024/5_hackathon1 at main · Creative-Cucumbers/creative-hack-plus](https://github.com/Creative-Cucumbers/creative-hack-plus/tree/main/2024/5_hackathon1)
 
 ### 発表テンプレート
 
