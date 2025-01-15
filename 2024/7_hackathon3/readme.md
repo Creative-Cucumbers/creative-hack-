@@ -230,7 +230,7 @@ curl -X POST 'https://api.dify.ai/v1/chat-messages' \
 
 ### 参考：マシュマロチャレンジ
 
-![](../images/2025-01-11-23-43-48.png)
+![](../../images/2025-01-11-23-43-48.png)
 
 ## 課題説明 10 分
 
